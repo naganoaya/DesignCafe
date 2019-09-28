@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: #f9f9f9
+}
+
+.container1{
+    display:flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.item{
+    text-align: left;
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+.item p{
+    padding: 7px;
+}
+
+.item2{
+    background-color: #182b2e;
+}
