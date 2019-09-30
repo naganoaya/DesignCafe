@@ -5,12 +5,25 @@
     
 }
 
+/*JQ*/
+
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
+
 /*タイトル*/
 
 .container {
   width: 1020px;
   height: 100vh;
-  margin: 0px auto; 
+  margin: 0px auto;
+    
 }
 
 #main {
