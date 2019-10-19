@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Loto',sans-serif;
-    
 }
-
+body{
+    background-color: #f9f9f9;
+    width: 100vw;
+}
 /*JQ*/
-
 .fadein {
     opacity : 0;
     transform : translate(0, 50px);
@@ -16,26 +17,23 @@
     opacity : 1;
     transform : translate(0, 0);
 }
-
 /*タイトル*/
 
-.container {
-  width: 1020px;
-  height: 100vh;
-  margin: 0px auto;
-    
+#header.container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
-
 #main {
-  width: 1020px;
+  width: 100%;
   height: 410vh; 
 }
 
-/*.fadein {
+.fadein {
   opacity: 0;
   transform: translate(0, 50px);
   transition: all 0.5s; 
-}*/
+}
 
 .fadein .scrollin {
     opacity: 1;
@@ -43,77 +41,79 @@
 }
 
 #header h2 {
-  color: #fff; }
-
-#header p1 {
-  color: #fff; }
-
-#header .home {
-  z-index: 2;
-  position: absolute;
-  top: 40vh;
-  left: 470px;
-  display: block; }
-
-#header .home h2 {
-    font-weight: 700;
-    font-size: 66px; 
-    margin: 0 auto;
+    color: #fff; 
 }
 
- #header .home p1 {
-    margin-left: 57px;
+#header p1 {
+    color: #fff; 
+}
+
+#header .home {
+    z-index: 2;
+    position: absolute;
+    top: 30vh;
+    left: 30%;
+    display: block; 
+}
+#header .home h2 {
+    font-size: 5vw; 
+    margin: 0 auto;
+}
+#header .home p1 {
+   
     font-weight: 300;
-    font-size: 25px; }
+    font-size: 3vw; 
+}
 
 #header nav {
-  font-size: 19px;
-  z-index: 2;
-  position: absolute;
-  float: left;
-  margin-left: 570px;
-  overflow: hidden; }
+    font-size: 2vw;
+    z-index: 2;
+    position: absolute;
+    top: 0px;ß
+    float: left;
+    overflow: hidden; 
+    margin-left: 50%;
+}
 
  #header nav li {
     list-style-type: none;
-    float: left; }
+    float: left; 
+}
 
 #header nav li a {
-      text-decoration: none;
-      display: inline-block;
-      font-weight: 700;
-      color: #fff;
-      margin: 9px;
-      transition: 2s; }
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+    margin: 9px;
+    transition: 2s; 
+}
       
-      #header nav li a:hover {
-        border-bottom: 1px solid #FFF; }
+#header nav li a:hover {
+    border-bottom: 1px solid #FFF; 
+}
 
 #header #slide {
-  position: relative; }
+  }
 
 #header #slide img {
-    overflow: hidden;
-    width: 1020px;
-    position: absolute;
-    left: 0;
-    top: 0; }
+    width: 100vw;
+    
+}
 
 
 /*ABOUT*/
 
 h1{
     text-align: center;
-    margin-top: 200px;
-}
-body{
-    background-color: #f9f9f9;
-    width: 1020px;
+    font-size: 3vw;
+    color: #182b2e;
+    margin-top: 100px;
 }
 
 .container1{
     display:flex;
-    width: 900px;
+    width: 70vw;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -128,6 +128,15 @@ body{
     border-radius: 10px;
 }
 
+.item-a h3{
+    font-size: 2vw;
+   
+}
+
+.item-a p{
+    font-size: 1.3vw;
+}
+
 
 .item-b{
     text-align: left;
@@ -137,6 +146,14 @@ body{
     margin-bottom: 150px;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
     border-radius: 10px;
+}
+
+.item-b h3{
+    font-size: 2vw;;
+}
+
+.item-b p{
+    font-size: 1.3vw;
 }
 
 
@@ -151,16 +168,28 @@ body{
     border-radius: 10px;
 }
 
-.item p{
-    padding: 10px;
+.item-c h3{
+    font-size: 2vw;;
 }
+
+.item-c p{
+    font-size: 1.3vw;
+}
+
 
 .container2{
     display: flex;
     background-color: #182b2e;
-    width: 1020px;
-    height: 680px;
+    width: 75%;
+    height: 80vh;
+    margin: 0 auto;
 }
+
+.container2 .image img{
+    width: 40vw;
+    height: 80vh;
+}
+
 
 
 .item2{
@@ -171,197 +200,225 @@ body{
 
 .item2 h1{
     color: #ffffff;
-    text-align: left;
-    margin-top: 100px;
-    
+    margin-top: 20%;
+    font-size: 4vw;
+    margin: 0 auto;
 }
 
 .item2 p{
     color: #ffffff;
-    text-align: left;
-    line-height: 40px;
+    line-height: 140%;
+    margin: 0 auto;
 }
 
 /*MENU*/
 #menu {
-  background-color: #f9f9f9; }
+    width: 100%;
+    background-color: #f9f9f9;
+}
   
 #menu h1 {
     font-size: 250%;
     color: #182b2e;
     position: relative;
-    margin-top: 100px;
-    text-align: center; }
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-align: center; 
+}
   
 #menu .menu-contant {
-    width: 100%;
+    width: 80%;
     height: 50vh;
+    margin-top: 20%;
     position: relative;
-    left: 19%;
-    margin-top: 50px;
+    margin: 0 auto;
 }
-    
+
 #menu .menu-contant .coffee {
-      width: 30%;
-      height: 50vh;
-      background-color: #182b2e;
-      float: left;
-      margin-right: 3%;
-      position: relative;
-      border-radius: 10px;
-      box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.03); }
+    width: 30%;
+    height: 70%;
+    background-color: #182b2e;
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.03); 
+}
       
 #menu .menu-contant .coffee img {
-        width: 100%;
-        height: 60%;
-        border-radius: 10px 10px 0px 0px; 
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px; 
 }
       
 #menu .menu-contant .coffee h3 {
     color: #fff;
-    font-size: 40px;
+    font-size: 4vw;
     display: block;
     margin: 10px 0px 0px 10px; padding-left: 10px; 
 }
     
 #menu .menu-contant .tea {
-      width: 30%;
-      height: 50vh;
-      background-color: #182b2e;
-      float: left;
-      margin-right: 3%;
-      position: relative;
-      border-radius: 10px;
-      box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.03); 
+    width: 30%;
+    height: 70%;
+    background-color: #182b2e;
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.03); 
 }
       
 #menu .menu-contant .tea img {
-        width: 100%;
-        height: 60%;
-        border-radius: 10px 10px 0px 0px; 
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px; 
 }
       
 #menu .menu-contant .tea h3 {
     color: #fff;
-    font-size: 40px;
+    font-size: 4vw;
     display: block;
     margin: 10px 0px 0px 10px;
     padding-left: 10px; 
+}
+
+#menu .menu-contant .cake {
+    width: 30%;
+    height: 70%;
+    background-color: #182b2e;
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.03); 
+}
+      
+#menu .menu-contant .cake img {
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0px 0px; 
+}
+      
+#menu .menu-contant .cake h3 {
+    color: #fff;
+    font-size: 4vw;
+    display: block;
+    margin: 10px 0px 0px 10px; padding-left: 10px; 
 }
 
 
 
 /*ACCESS*/
 
-#access {
-  display: block;
-  background-color: #f9f9f9;
- 
-}
-  
-#access h1 {
-    font-size: 250%;
-    color: #182b2e;
-    position: relative;
-    margin-top: 0px;
-    text-align: center; 
-}
-  
-#access .box-access {
-    width: 75%;
-    height: 50vh;
-    position: relative;
-    left: 12.5%;
-    margin-top: 100px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.07); }
-   
-#access .box-access .left-access {
-      border-radius: 10px 0px 0px 10px;
-      width: 50%;
-      height: 100%;
-      float: left;
-      overflow: hidden; 
-}
-    
-#access .box-access .right-access {
-      border-radius: 0px 10px 10px 0px;
-      background-color: #fff;
-      width: 50%;
-      height: 100%;
-      float: left; 
-}
-      
-#access .box-access .right-access .right-access-common {
-        background-color: #ef3636; 
-}
-        
-#access .box-access .right-access .right-access-common h3 {
-          float: left;
-          display: block;
-          position: relative;
-          top: 50px;
-          left: 15%;
-          line-height: 0px;
-          font-size: 13px; 
-}
-          
-#access .box-access .right-access .right-access-common h3 span {
-            line-height: 120px; 
-}
-        
-#access .box-access .right-access .right-access-common p3 {
-          letter-spacing: 0.7px;
-          color: #b1b1b1;
-          float: left;
-          display: block;
-          position: relative;
-          top: 34px;
-          left: 20%;
-          font-size: 12px;
-          line-height: 20px; 
-}
-          
-#access .box-access .right-access .right-access-common p3 span {
-            margin-right: 10px;
-            line-height: 33px; 
-}
-         
-#access .box-access .right-access .right-access-common p3 span1 {
-            margin-right: 18px;
-            line-height: 33px; 
-}
- 
-#access a {
-    display: block;
-    position: relative;
-    top: 100px;
+.title .fadein{
     text-align: center;
-    text-decoration: none;
-    padding: 7px 14px;
-    margin: 0px 440px;
-    background-color: #182b2e;
-    color: #fff;
+    font-size: 2vw;
+    color: #182b2e;
+    margin-bottom: 50px;
+}
+
+.access-item {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 0px;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*margin-left: 10%;*/
+    /*box-shadow: 0 2px 5px #ccc;*/
+}
+
+.right {
+    /*background-color: #fff;*/
+    /*border: 1px solid #fff;*/
+    /*width: 40%;
+    height: 400px;*/
+    margin-left: 25%;
+    /*box-shadow: 0 2px 5px #ccc;*/
+}
+
+span {
+    display: inline-block;
+    width: 5em;
+}
+
+.right h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #182b2e;
+    padding: 9% 3% 4% 3%;
+}
+
+.right1 h3 {
+    float: left;
+    padding: 8.5% 8% 0% 10%;
+    margin-bottom: 0%;
+}
+
+.right2 h3 {
+    float: left;
+    margin-top: 0px;
+    padding: 0% 4.5% 10% 10%;
+}
+
+.right p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 160%;
+    color: #182b2e;
+    padding: 9% 3% 4% 3%;
+}
+
+.right2 p {
+    padding: 0% 3% 4% 3%;
+}
+
+.button a {
+    text-align: center;
+    display: block;
+    border: 1px solid #182b2e;
     border-radius: 5px;
-    font-weight: 700;
-    transition: 1s; 
+    color: #fff;
+    background: #182b2e;
+    font-weight: 600;
+    font-size: 20%;
+    text-decoration: none;
+    padding: 7px;
+    width: 10%;
+    margin: 50px auto 70px auto;
+    transition: 1.0s;
 }
-    
-#access a:hover {
-      color: #182b2e;
-      border: 1px solid #182b2e;
-      background-color: #fff; 
-    　
+
+.button a:hover {
+    color: #182b2e;
+    background: #fff;
+    transition: 1.0s;
 }
+
 
 /*footer*/
 footer {
-  width: 1020px;
-  margin: 0px auto;
-  padding: 30px 0px;
-  text-align: center;
-  background-color: #182b2e;
-  color: #fff;
-  font-weight: 700;
-  font-size: 14px; }
+    margin: 0px auto;
+    margin-top: 20%;
+    padding: 30px 0px;
+    text-align: center;
+    background-color: #182b2e;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 499px) { 
+     
+}
 
